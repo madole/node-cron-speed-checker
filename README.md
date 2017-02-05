@@ -12,7 +12,7 @@ and uses IFTTT's Maker chanel to insert the results into a Google Docs spreadshe
 
 ## Getting started
 
-First of all go to [IFTTT Maker](https://ifttt.com/maker) and create a trigger, and 
+First of all go to [IFTTT Maker](https://ifttt.com/maker) and create a trigger called `speed-test`, and 
 set it up to add row to a google docs spreadsheet.
 
 Take the key for the maker trigger and set it to an evironment variable and run the project.
