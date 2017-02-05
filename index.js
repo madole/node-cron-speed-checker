@@ -12,8 +12,8 @@ function runSpeedTest() {
             server: data.server
         };
         const queryString = `value1=${data.speeds.download}&value2=${data.speeds.upload}&value3=${JSON.stringify(meta)}`
-
-        fetch(`https://maker.ifttt.com/trigger/speed-test/with/key/bNQfHpKQRHcrrzpXs_v_a9/?${queryString}`)
+        const key = process.env.IFTTT_KEY
+        fetch(`https://maker.ifttt.com/trigger/speed-test/with/key/${key}/?${queryString}`)
     });
     
     test.on('error', err => {
