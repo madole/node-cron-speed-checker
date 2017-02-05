@@ -1,0 +1,12 @@
+{
+  "name": "speedchecker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "node-cron": "^1.1.2",
+    "speedtest-net": "^1.2.12"
+  }
+}
